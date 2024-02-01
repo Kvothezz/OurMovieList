@@ -7,7 +7,7 @@ import { MovielistViewComponent } from './movielist-view/movielist-view.componen
 import { MovielistItemComponent } from './movielist-item/movielist-item.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SearchbarComponent } from './searchbar/searchbar.component';
-import { LoginComponent } from './login/login.component';
+import { LoginComponent } from './views/login/login.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +20,8 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

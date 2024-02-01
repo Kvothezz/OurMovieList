@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList\\OurMovieList.csproj": {}
+    "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList.csproj": {}
   },
   "projects": {
-    "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList\\OurMovieList.csproj": {
+    "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList\\OurMovieList.csproj",
+        "projectUniqueName": "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList.csproj",
         "projectName": "OurMovieList",
-        "projectPath": "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList\\OurMovieList.csproj",
+        "projectPath": "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList.csproj",
         "packagesPath": "C:\\Users\\bezer\\.nuget\\packages\\",
-        "outputPath": "E:\\PROJETOS\\OurMovieList-Back\\OurMovieList\\obj\\",
+        "outputPath": "E:\\PROJETOS\\OurMovieList-Back\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

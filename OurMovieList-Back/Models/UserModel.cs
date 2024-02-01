@@ -1,8 +1,5 @@
-﻿
-using System;
-namespace OurMovieList.Models
+﻿namespace OurMovieList.Models
 {
-
 
 public class UserModel
 {
@@ -11,6 +8,8 @@ public class UserModel
 		public string Name { get; set; }
 		public string Email { get; set; }
 		public string Password { get; set; }
+
+		public ICollection<ListModel>? Listas{ get; set;}
 
 	public UserModel(int id, string nome, string email, string password)
 	{

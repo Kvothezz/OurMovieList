@@ -1,8 +1,4 @@
-﻿using System.Net.Http;
-
-
-
-namespace OurMovieList.Services
+﻿namespace OurMovieList.Services
 {
     public class MovieService
     {

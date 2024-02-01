@@ -12,13 +12,13 @@
 
         public string PosterPath { get; set; }
 
-        public MovieModel(int Id , string Title, string Description, string OriginalTitle, string PosterPath)
+        public MovieModel(int id , string title, string description, string originalTitle, string posterPath)
         {
-            this.Id = Id;
-            this.Title = Title;
-            this.Description = Description;
-            this.OriginalTitle = OriginalTitle;
-            this.PosterPath = PosterPath;
+            Id = id;
+            Title = title;
+            Description = description;
+            OriginalTitle = originalTitle;
+            PosterPath = posterPath;
         }
 
     }
