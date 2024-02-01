@@ -15,7 +15,7 @@ namespace OurMovieList.Services
                 RequestUri = new Uri("https://api.themoviedb.org/3/authentication"),
                 Headers = {
             {"accept","application/json"},
-            // {"Authorization","authkey"}
+            // {"Authorization","authkey" }
             },
             };
 
