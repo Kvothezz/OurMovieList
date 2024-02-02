@@ -9,6 +9,7 @@ export class MovielistViewComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    document.body.setAttribute('data-bs-theme','dark');
   }
 
 }

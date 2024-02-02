@@ -7,8 +7,9 @@ import { MovielistViewComponent } from './views/movielist-view/movielist-view.co
 import { MovielistItemComponent } from './movielist-item/movielist-item.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SearchbarComponent } from './searchbar/searchbar.component';
-import { LoginComponent } from './views/login/login.component';
-import { RegisterComponent } from './views/register/register.component';
+import { LoginComponent } from './views/Login/login/login.component';
+import { RegisterComponent } from './views/Login/register/register.component';
+import { ForgotPasswordComponent } from './views/Login/forgotPassword/forgot-password/forgot-password.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { RegisterComponent } from './views/register/register.component';
     MovielistItemComponent,
     SearchbarComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,
