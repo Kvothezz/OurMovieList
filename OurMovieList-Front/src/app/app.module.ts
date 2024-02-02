@@ -3,11 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MovielistViewComponent } from './movielist-view/movielist-view.component';
+import { MovielistViewComponent } from './views/movielist-view/movielist-view.component';
 import { MovielistItemComponent } from './movielist-item/movielist-item.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { SearchbarComponent } from './searchbar/searchbar.component';
 import { LoginComponent } from './views/login/login.component';
+import { RegisterComponent } from './views/register/register.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { LoginComponent } from './views/login/login.component';
     MovielistViewComponent,
     MovielistItemComponent,
     SearchbarComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
